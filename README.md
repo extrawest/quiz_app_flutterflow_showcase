@@ -19,7 +19,7 @@
 
 **To watch demo click the image:**
 
-[![Watch the demo](https://gitlab.extrawest.com/i-training/flutter/ruslan.volkhov_maps_app/-/raw/8dde99e4509dea671e207c49e16004bc20398d6f/preview.jpg)](https://gitlab.extrawest.com/i-training/flutter/ruslan.volkhov_maps_app/-/blob/dev/video.mp4)
+[![Watch the demo](https://gitlab.extrawest.com/i-training/flutter/ruslan.volkhov_maps_app/-/raw/8dde99e4509dea671e207c49e16004bc20398d6f/preview.jpg)](https://github.com/ruslan-volkhov-ew/quiz-flutter-flow/blob/main/video.mp4)
 
 ## How to run the app
 - **Clone the project.**
