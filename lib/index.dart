@@ -9,4 +9,3 @@ export '/pages/one_answer_quiz/one_answer_quiz_widget.dart'
 export '/pages/histor_screen/histor_screen_widget.dart' show HistorScreenWidget;
 export '/pages/settings_screen/settings_screen_widget.dart'
     show SettingsScreenWidget;
-export '/temp/temp_widget.dart' show TempWidget;

@@ -81,11 +81,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'SettingsScreen',
           path: '/settingsScreen',
           builder: (context, params) => SettingsScreenWidget(),
-        ),
-        FFRoute(
-          name: 'temp',
-          path: '/temp',
-          builder: (context, params) => TempWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       urlPathStrategy: UrlPathStrategy.path,
