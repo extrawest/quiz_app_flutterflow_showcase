@@ -44,12 +44,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
       key: scaffoldKey,
       backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(100.0),
+        preferredSize: Size.fromHeight(80.0),
         child: AppBar(
           backgroundColor: FlutterFlowTheme.of(context).primaryColor,
           automaticallyImplyLeading: false,
           title: Padding(
-            padding: EdgeInsetsDirectional.fromSTEB(0.0, 50.0, 0.0, 0.0),
+            padding: EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 0.0),
             child: Text(
               'Main Screen',
               style: FlutterFlowTheme.of(context).title2.override(
@@ -61,7 +61,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           ),
           actions: [],
           centerTitle: false,
-          toolbarHeight: 100.0,
+          toolbarHeight: 80.0,
           elevation: 2.0,
         ),
       ),
