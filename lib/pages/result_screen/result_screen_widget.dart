@@ -86,34 +86,44 @@ class _ResultScreenWidgetState extends State<ResultScreenWidget> {
     return Scaffold(
       key: scaffoldKey,
       backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-      appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
-        automaticallyImplyLeading: false,
-        leading: FlutterFlowIconButton(
-          borderColor: Colors.transparent,
-          borderRadius: 30.0,
-          borderWidth: 1.0,
-          buttonSize: 60.0,
-          icon: Icon(
-            Icons.arrow_back_rounded,
-            color: Colors.white,
-            size: 30.0,
-          ),
-          onPressed: () async {
-            context.goNamed('HomePage');
-          },
-        ),
-        title: Text(
-          widget.appBarText,
-          style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(80.0),
+        child: AppBar(
+          backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+          automaticallyImplyLeading: false,
+          leading: Padding(
+            padding: EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 0.0),
+            child: FlutterFlowIconButton(
+              borderColor: Colors.transparent,
+              borderRadius: 30.0,
+              borderWidth: 1.0,
+              buttonSize: 60.0,
+              icon: Icon(
+                Icons.arrow_back_rounded,
                 color: Colors.white,
-                fontSize: 22.0,
+                size: 30.0,
               ),
+              onPressed: () async {
+                context.goNamed('HomePage');
+              },
+            ),
+          ),
+          title: Padding(
+            padding: EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 0.0),
+            child: Text(
+              widget.appBarText,
+              style: FlutterFlowTheme.of(context).title2.override(
+                    fontFamily: 'Poppins',
+                    color: Colors.white,
+                    fontSize: 22.0,
+                  ),
+            ),
+          ),
+          actions: [],
+          centerTitle: false,
+          toolbarHeight: 80.0,
+          elevation: 2.0,
         ),
-        actions: [],
-        centerTitle: false,
-        elevation: 2.0,
       ),
       body: SafeArea(
         child: GestureDetector(

@@ -62,34 +62,44 @@ class _TrueFalseQuizWidgetState extends State<TrueFalseQuizWidget> {
         return Scaffold(
           key: scaffoldKey,
           backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-          appBar: AppBar(
-            backgroundColor: FlutterFlowTheme.of(context).primaryColor,
-            automaticallyImplyLeading: false,
-            leading: FlutterFlowIconButton(
-              borderColor: Colors.transparent,
-              borderRadius: 30.0,
-              borderWidth: 1.0,
-              buttonSize: 60.0,
-              icon: Icon(
-                Icons.arrow_back_rounded,
-                color: Colors.white,
-                size: 30.0,
-              ),
-              onPressed: () async {
-                context.pop();
-              },
-            ),
-            title: Text(
-              'True or False Quiz',
-              style: FlutterFlowTheme.of(context).title2.override(
-                    fontFamily: 'Poppins',
+          appBar: PreferredSize(
+            preferredSize: Size.fromHeight(80.0),
+            child: AppBar(
+              backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+              automaticallyImplyLeading: false,
+              leading: Padding(
+                padding: EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 0.0),
+                child: FlutterFlowIconButton(
+                  borderColor: Colors.transparent,
+                  borderRadius: 30.0,
+                  borderWidth: 1.0,
+                  buttonSize: 60.0,
+                  icon: Icon(
+                    Icons.arrow_back_rounded,
                     color: Colors.white,
-                    fontSize: 22.0,
+                    size: 30.0,
                   ),
+                  onPressed: () async {
+                    context.pop();
+                  },
+                ),
+              ),
+              title: Padding(
+                padding: EdgeInsetsDirectional.fromSTEB(0.0, 30.0, 0.0, 0.0),
+                child: Text(
+                  'True or False Quiz',
+                  style: FlutterFlowTheme.of(context).title2.override(
+                        fontFamily: 'Poppins',
+                        color: Colors.white,
+                        fontSize: 22.0,
+                      ),
+                ),
+              ),
+              actions: [],
+              centerTitle: false,
+              toolbarHeight: 80.0,
+              elevation: 2.0,
             ),
-            actions: [],
-            centerTitle: false,
-            elevation: 2.0,
           ),
           body: SafeArea(
             child: GestureDetector(
