@@ -1,31 +1,74 @@
-# QuizApp
+# Quiz App designed by FlutterFlow
 
-A new Flutter project.
+[![Maintanence](https://img.shields.io/badge/Maintenance-yes%3F-blue.svg)]()
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)]()
+![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
+![GitHub release](https://img.shields.io/badge/release-v1.0.0-blue)
+[![View DEMO](https://img.shields.io/badge/VIEW-DEMO-lightgreen.svg)](https://quiz-app-flutter-flow.web.app/)
 
-## Getting Started
+## Project info 
+- This project is a app that gets data from API, parses it, build question and shows answer on the result screen.
+- The app runs on Android, iOS and Web.
+- The app is built using Flutter 3.3.7 and Dart.
+- The app is built using the MVVM architecture.
+- The app is built with FlutterFlow.
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+## Demo
+[Stations Map App](https://quiz-app-flutter-flow.web.app/)
 
-### IMPORTANT:
 
-For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
+**To watch demo click the image:**
 
+[![Watch the demo](https://gitlab.extrawest.com/i-training/flutter/ruslan.volkhov_maps_app/-/raw/8dde99e4509dea671e207c49e16004bc20398d6f/preview.jpg)](https://gitlab.extrawest.com/i-training/flutter/ruslan.volkhov_maps_app/-/blob/dev/video.mp4)
+
+## How to run the app
+- **Clone the project.**
+```shell
+git clone https://github.com/ruslan-volkhov-ew/quiz-flutter-flow.git
 ```
+- **Open the project.**
+```shell
+cd your_name_here
+```
+- **Get packages.**
+```shell
 flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
+```
+- **Configure firebase project with flutterfire.**
+```shell
+flutterfire configure
 ```
 
-This command creates the generated files that parse each Record from Firestore into a schema object.
+At this point you should be able to run the app on your device or emulator.
 
-### Getting started continued:
+## Firebase hosting
 
-This project is a starting point for a Flutter application.
+1. In order to deploy this app to Firebase hosting, follow these commands
 
-A few resources to get you started if this is your first Flutter project:
+- **Login to firebase.**
+```shell
+firebase login
+```
+- **Initialize firebase.**
+```shell
+firebase init
+```
+- **Choose account, then choose Hosting as an option.**
+- **Select Firebase project**
+- **Select public directory for your hosting**
+build/web (default)
+- **Configure as a single-page app**
+- **Build the project if you haven't yet**
+```shell
+flutter build web
+```
+- **Deploy to firebase.**
+```shell
+firebase deploy
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Created by **Ruslan Volkhov**
+
+[Extrawest.com](https://www.extrawest.com), 2023
+
