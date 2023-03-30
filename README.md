@@ -14,7 +14,7 @@
 - The app is built with FlutterFlow.
 
 ## Demo
-[Stations Map App](https://quiz-app-flutter-flow.web.app/)
+[Quiz by FlutterFlow](https://quiz-app-flutter-flow.web.app/)
 
 
 **To watch demo click the image:**
