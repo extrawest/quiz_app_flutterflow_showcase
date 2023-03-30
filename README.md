@@ -7,7 +7,7 @@
 [![View DEMO](https://img.shields.io/badge/VIEW-DEMO-lightgreen.svg)](https://quiz-app-flutter-flow.web.app/)
 
 ## Project info 
-- This project is a app that gets data from API, parses it, build question and shows answer on the result screen.
+- This project is an app that gets data from API, parses it, build question and shows answer on the result screen.
 - The app runs on Android, iOS and Web.
 - The app is built using Flutter 3.3.7 and Dart.
 - The app is built using the MVVM architecture.
@@ -16,10 +16,7 @@
 ## Demo
 [Quiz by FlutterFlow](https://quiz-app-flutter-flow.web.app/)
 
-
-**To watch demo click the image:**
-
-https://github.com/ruslan-volkhov-ew/quiz-flutter-flow/raw/main/video.mp4
+https://user-images.githubusercontent.com/129328468/228853927-f99f1dd7-b180-4b7d-8fdc-50ab75817b43.mp4
 
 ## How to run the app
 - **Clone the project.**
