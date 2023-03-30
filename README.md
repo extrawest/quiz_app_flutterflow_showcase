@@ -19,7 +19,7 @@
 
 **To watch demo click the image:**
 
-[![Watch the demo](https://github.com/ruslan-volkhov-ew/quiz-flutter-flow/blob/main/photo.jpg)](https://github.com/ruslan-volkhov-ew/quiz-flutter-flow/blob/main/video.mp4)
+[![Watch the demo](https://github.com/ruslan-volkhov-ew/quiz-flutter-flow/blob/main/photo.jpg)](https://github.com/ruslan-volkhov-ew/quiz-flutter-flow/raw/main/video.mp4)
 
 ## How to run the app
 - **Clone the project.**
