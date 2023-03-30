@@ -1,4 +1,4 @@
-# Quiz App designed by FlutterFlow
+# Quiz App Showcase in FlutterFlow
 
 [![Maintanence](https://img.shields.io/badge/Maintenance-yes%3F-blue.svg)]()
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)]()
@@ -7,10 +7,10 @@
 [![View DEMO](https://img.shields.io/badge/VIEW-DEMO-lightgreen.svg)](https://quiz-app-flutter-flow.web.app/)
 
 ## Project info 
-- This project is an app that gets data from API, parses it, build question and shows answer on the result screen.
+- This project is an app that gets data from API, parses it, builds questions and shows answers on the result screen.
 - The app runs on Android, iOS and Web.
-- The app is built using Flutter 3.3.7 and Dart.
-- The app is built using the MVVM architecture.
+- The app is built using latest Flutter and Dart.
+- The app is built using the MV architecture.
 - The app is built with FlutterFlow.
 
 ## Demo
