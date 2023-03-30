@@ -10,7 +10,6 @@
 - This project is an app that gets data from API, parses it, builds questions and shows answers on the result screen.
 - The app runs on Android, iOS and Web.
 - The app is built using latest Flutter and Dart.
-- The app is built using the MV architecture.
 - The app is built with FlutterFlow.
 
 ## Demo
